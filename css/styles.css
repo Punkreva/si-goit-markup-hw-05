@@ -641,7 +641,8 @@ img {
   top: 24px;
   right: 24px;
   cursor: pointer;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-close-btn:hover,
@@ -667,8 +668,8 @@ img {
   margin-bottom: 16px;
 }
 
-.review-form-wrapper {
-  margin-bottom: 8px;
+.review-form-textarea {
+  margin-bottom: 16px;
 }
 .review-form-field-label {
   color: #8e8f99;
@@ -678,6 +679,7 @@ img {
   letter-spacing: 0.04em;
   display: block;
   margin-bottom: 4px;
+  margin-top: 8px;
 }
 
 .review-form-input-wrapper {
@@ -740,8 +742,11 @@ img {
 /* ======================= Checkbox ====================== */
 
 .review-form-checkbox-wrapper {
-  margin-top: 16px;
   margin-bottom: 24px;
+}
+
+.review-form-wrapper {
+  margin-top: 8px;
 }
 
 .review-form-own-checkbox {
@@ -767,7 +772,7 @@ img {
   height: 16px;
   background-color: #404bbf;
   border: none;
-  fill: #f4f4f4;
+  fill: #f4f4fd;
 }
 
 .review-form-checkbox:focus
